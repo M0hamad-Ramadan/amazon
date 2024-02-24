@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/1-header.css" />
+
+    <script defer src="main.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section class="header-top">
+        <div class="logo">
+          <span class="logo-cityCode" dir="ltr">.eg</span>
+          <img src="images/amazon-logo.svg" alt="" width="120" height="40" />
+        </div>
+
+        <article class="location">
+          <p class="location-p1">التوصيل إلى</p>
+          <p class="location-city-icon">
+            <img src="images/location-icone.svg" alt="" width="20" />
+            <span> مصر </span>
+          </p>
+        </article>
+
+        <form class="search" id="searchForm">
+          <div class="selectCont">
+            <label for="mainSelect" id="mainSelectLabel">
+              الكل
+              <img src="images/select-down-arr.svg" alt="" />
+            </label>
+            <select name="mainSelect" id="mainSelect">
+              <option value="selectAll" hidden>الكل</option>
+              <option value="selectAll">جميع الأقسام</option>
+              <option value="saab">آلات موسيقية</option>
+              <option value="opel">أجهزة Amazon</option>
+              <option value="audi">أدوات وتحسينات المنزل</option>
+
+              <option value="selectAll">أزياء Amazon</option>
+              <option value="saab">ألعاب الفيديو</option>
+              <option value="opel">الألعاب والدمى</option>
+              <option value="audi">الإلكترونيات</option>
+
+              <option value="selectAll">البقالة والطعام الفاخر</option>
+              <option value="saab">الجمال والعناية الشخصية</option>
+              <option value="opel">الرياضة واللياقة البدنية</option>
+              <option value="audi">الصناعة والعلم</option>
+
+              <option value="selectAll">الفنون والحرف والخياطة</option>
+              <option value="saab">المنزل والحديقة</option>
+              <option value="opel">برمجية</option>
+              <option value="audi">طفل</option>
+
+              <option value="selectAll">عروض مستودع أمازون</option>
+              <option value="saab">قطع وإكسسوارات السيارات</option>
+              <option value="opel">كتب</option>
+              <option value="audi">مستلزمات الحيوانات الأليفة</option>
+
+              <option value="selectAll">
+                مستلزمات الرعاية الصحية والأسرة والطفل
+              </option>
+              <option value="saab">منتجات المكتب</option>
+              <option value="opel">منتجات المنزل</option>
+              <option value="audi">مستلزمات الحيوانات الأليفة</option>
+            </select>
+          </div>
+
+          <div class="search-inp">
+            <input
+              type="text"
+              name=""
+              id="searchInp"
+              placeholder="بحث Amazon.eg" />
+          </div>
+
+          <div class="search-Btn" id="searchBtn">
+            <img src="images/search-icon.svg" alt="" />
+          </div>
+        </form>
+
+        <div class="cont-lang" id="contLang">
+          <div class="currentLang">
+            <img src="images/egyptFlag.svg" alt="" />
+            <span id="siteLang">AR</span>
+            <img
+              src="images/lang-down-arr.svg"
+              alt=""
+              id="langArrow"
+              width="8"
+              height="8" />
+          </div>
+
+          <div class="chooseLang" id="chooseLang">
+            <label class="chooseLang-radio" dir="ltr"
+              ><span>AR</span> <span>-</span> <span>العربية</span>
+              <input type="radio" checked="checked" name="radio" />
+              <span class="checkmark"></span>
+            </label>
+
+            <hr />
+
+            <label class="chooseLang-radio" dir="ltr">
+              <span>EN</span> <span>-</span> <span>English</span>
+              <input type="radio" checked="checked" name="radio" />
+              <span class="checkmark"></span>
+            </label>
+
+            <hr />
+
+            <div class="chooseLang-userShoppingAt">
+              <article class="chooseLang-userShoppingAt-userCity">
+                <img src="images/egyptFlag.svg" alt="" width="15" height="15" />
+                <span> انت تتسوق على </span>
+                <span> Amazon.eg </span>
+              </article>
+              <a href="#"> تغيير البلد/المنطقة </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hi-logIn" id="hiLogIn">
+          <p class="hi-logIn-hi">مرحبا, تسجيل الدخول</p>
+          <p class="hi-logIn-login">
+            الحساب والقوائم
+            <img src="images/lang-down-arr.svg" alt="" />
+          </p>
+
+          <div class="logInDialog" id="logInDialog">
+            
+            <div class="cont-logInBtn">
+              <button> تسجيل الدخول </button>
+              <p>  هل انت مستخدم جديد؟ <a href="#"> إبدأ من هنا.</a> </p>
+            </div>
+            <hr>
+
+            <div class="account-List">
+
+              <div class="userList">
+                <h3>قوائمك</h3>
+                <ul>
+                 
+                  <li><a href="#"> إنشاء قائمة </a></li>
+                </ul>
+              </div>
+              <div class="userAccount">
+                <h3>حسابك</h3>
+                <ul>
+                  <li><a href="#"> حسابك </a></li>
+                  <li><a href="#"> مشترياتك </a></li>
+                  <li><a href="#"> عناوينك </a></li>
+                  <li><a href="#"> قوائمك </a></li>
+                  <li><a href="#"> توصياتك </a></li>
+                  <li><a href="#"> عضوية برايم الخاصة بك </a></li>
+                  <li><a href="#"> حساب البيع الخاص بك </a></li>
+
+                </ul>
+              </dl>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <div class="orders">
+          <a href="">
+            مشترياتك
+          </a>
+        </div>
+
+        <div class="shopping-cart">
+          <div class="shopping-cart-img">
+            <span id="productNum">0</span>
+            <img src="images/shop-car.svg" alt="">
+          </div>
+          
+          <p> عربة التسوق </p>
+        </div>
+      </section>
+
+      <section class="header-bottom"></section>
+    </header>
+    <main>
+      <div id="mainBackDrop"></div>
+    </main>
+  </body>
+</html>
